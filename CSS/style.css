@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #1d3557;
+    color: white;
+    font-family: "Roboto", sans-serif ;
+    text-align: center;
+
+}
+
+header a{
+    color: white;
+    padding: 8px;
+    display: inline-block;
+    margin: 0 3px;
+}
+
+#container{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 70%;
+    margin: 10px auto;
+}
+
+
+#container td, #container th{
+    border: 1px solid #ddd;
+    padding: 8px 0;
+}
+
+#container tr:nth-child(even){background-color: #f2f2f2;}
+#container tr:hover{background-color: #ddd;}
+#container th{
+    background-color: mediumseagreen;
+    color: white;
+    text-align: left;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 10px;
+}
+
+footer{
+    background-color: #1d3557;
+    color: white;
+    text-align: center;
+    padding: 8px;
+}
